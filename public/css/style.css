@@ -1,6 +1,7 @@
-/* body{
-    background-color: palevioletred;
-} */
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+   
+} 
 
 /* Navabr */
 .navbar {
@@ -68,8 +69,25 @@
 
 .card-body{
     padding: 0 !important;
+  
 }
 
-.cart-text p{
-    font-weight: 400;
+.card-text p {
+    font-weight: 400 !important;
+
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* card Efect  */
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
 }
