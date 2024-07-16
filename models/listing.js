@@ -11,7 +11,7 @@ const listingSchema = new Schema ({
     image: {
         url: String,
         filename: String,
-        // default: "https://unsplash.com/photos/green-palm-tree-near-silver-sedan-02fRawxKwbA",
+        // default : "https://unsplash.com/photos/green-palm-tree-near-silver-sedan-02fRawxKwbA",
         // set: (v) => v=== "" ? "https://unsplash.com/photos/green-palm-tree-near-silver-sedan-02fRawxKwbA" : v,
     },
     price: Number,
