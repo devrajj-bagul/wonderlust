@@ -2,7 +2,7 @@
 <div class="row mt-3">
     <div class="col-8 offset-2">
 
-    <h2> Edit Your Listing </h2>
+    <h3> Edit Your Listing </h3>
 
     <form method="POST" action="/listings/<%= listing._id %>?_method=PUT" novalidate class="needs-validation" enctype="multipart/form-data">
 
@@ -21,6 +21,13 @@
                 Please write a short Discription.
               </div>
         </div>
+
+        <div class="mb-3" >
+            Original Listing Image <br>
+            <img src="<%= originalImageUrl %>" width="250">
+        </div>
+
+
        
         <div class="mb-3">
             <label for="image" class="form-label">Upload New Image</label>
